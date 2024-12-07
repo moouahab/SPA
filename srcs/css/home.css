@@ -1,0 +1,55 @@
+
+html {
+	background-color: black;
+}
+
+body {
+	background-image: url('../asset/image/image.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+h1
+{
+	font-family: "Major Mono Display", monospace;
+	color: aliceblue;
+	text-align: center;
+	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+	transition: 0.3s ease-in-out; /* Transition fluide pour l'effet hover */
+}
+  
+  
+main > section {
+	height: 1050px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+	padding: 10px;
+	width: 20%;
+	border-radius: 10px;
+	color: rgb(251, 253, 255);
+	font-size: 1.5rem;
+	background-color: rgba(24, 69, 77, 0.62);
+	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+	box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+	transition: 0.3s ease-in-out; /* Pour un effet smooth */
+}
+
+button:hover {
+	box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px #00ffff, 0 0 80px #00ffff;
+	background-color: rgba(24, 69, 77, 0.8); /* Accentuer l'effet */
+	transform: scale(1.1); /* Légère mise en relief */
+}
+  
+
+.connect {
+	display: flex;
+	justify-content: center;
+}
